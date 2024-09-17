@@ -5,7 +5,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 
 import Type from '../Type';
 import myImg from '../../assets/avatar.svg';
-import homeLogo from '../../Assets/home-main.svg';
+import homeLogo from '../../assets/home-main.svg';
 
 const Home = () => {
   return (

@@ -58,7 +58,7 @@ button:focus {
   height: 100%;
   z-index: 999999;
   background-color: #0c0513;
-  background-image: url(./Assets/preloader.svg);
+  background-image: url(./assets/preloader.svg);
   background-repeat: no-repeat;
   background-position: center;
 }

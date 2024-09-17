@@ -12,7 +12,7 @@ import {
 } from 'react-icons/ai';
 import { CgFileDocument } from 'react-icons/cg';
 
-import logo from '../Assets/logo.png';
+import logo from '../assets/logo.png';
 
 const NavBar = () => {
   const [expand, setExpanded] = useState(false);

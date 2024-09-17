@@ -58,8 +58,7 @@ const NavBar = () => {
           <Nav className='ms-auto'>
             <Nav.Item>
               <Nav.Link as={Link} to='/' onClick={() => setExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: '2px' }} />
-                Home
+                <AiOutlineHome style={{ marginBottom: '2px' }} /> Home
               </Nav.Link>
             </Nav.Item>
 
@@ -68,8 +67,7 @@ const NavBar = () => {
                 as={Link}
                 to='/about'
                 onClick={() => setExpanded(false)}>
-                <AiOutlineUser style={{ marginBottom: '2px' }} />
-                About
+                <AiOutlineUser style={{ marginBottom: '2px' }} /> About
               </Nav.Link>
             </Nav.Item>
 
@@ -80,7 +78,7 @@ const NavBar = () => {
                 onClick={() => setExpanded(false)}>
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: '2px' }}
-                />
+                />{' '}
                 Projects
               </Nav.Link>
             </Nav.Item>
@@ -90,8 +88,7 @@ const NavBar = () => {
                 as={Link}
                 to='/resume'
                 onClick={() => setExpanded(false)}>
-                <CgFileDocument style={{ marginBottom: '2px' }} />
-                Resume
+                <CgFileDocument style={{ marginBottom: '2px' }} /> Resume
               </Nav.Link>
             </Nav.Item>
           </Nav>

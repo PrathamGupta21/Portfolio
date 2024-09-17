@@ -1,12 +1,13 @@
 import { useEffect, useState } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 
-import Preloader from './components/Preloader';
-import Home from './components/Home/Home';
-import Projects from './components/Projects/Projects';
 import About from './components/About/About';
-import Resume from './components/Resume/Resume';
+import Footer from './components/Footer';
+import Home from './components/Home/Home';
 import NavBar from './components/NavBar';
+import Preloader from './components/Preloader';
+import Projects from './components/Projects/Projects';
+import Resume from './components/Resume/Resume';
 import './App.css';
 
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
         <Route path='/resume' element={<Resume />} />
         <Route path='*' element={<Navigate to='/' />} />
       </Routes>
+      <Footer />
     </>
   );
 };

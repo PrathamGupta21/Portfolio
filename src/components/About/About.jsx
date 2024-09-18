@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import TechStack from './TechStack';
 import Aboutcard from './AboutCard';
 import laptopImg from '../../assets/about.png';
-import Toolstack from './Toolstack';
+import ToolStack from './ToolStack';
 
 const About = () => {
   return (
@@ -38,7 +38,7 @@ const About = () => {
         <h1 className='project-heading'>
           <strong className='purple'>Tools</strong> I use
         </h1>
-        <Toolstack />
+        <ToolStack />
       </Container>
     </Container>
   );

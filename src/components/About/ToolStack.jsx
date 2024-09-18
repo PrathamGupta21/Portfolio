@@ -2,7 +2,7 @@ import { Col, Row } from 'react-bootstrap';
 import { FaBitbucket, FaConfluence, FaJenkins } from 'react-icons/fa';
 import { SiVisualstudiocode, SiVercel } from 'react-icons/si';
 
-const Toolstack = () => {
+const ToolStack = () => {
   return (
     <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
       <Col xs={4} md={2} className='tech-icons'>
@@ -24,4 +24,4 @@ const Toolstack = () => {
   );
 };
 
-export default Toolstack;
+export default ToolStack;

@@ -8,8 +8,8 @@ const AboutCard = () => {
           <p style={{ textAlign: 'justify' }}>
             Hi Everyone, I am <span className='purple'>Pratham Gupta </span>
             from <span className='purple'> Lakhimpur-Kheri, UP, India.</span>
-            <br />I am currently employed as a{' '}
-            <span className='purple'>Software Engineer</span> at
+            <br />I am currently employed as a
+            <span className='purple'> Software Engineer</span> at
             <span className='purple'> Trianz Bangalore.</span>
             <br />I have completed{' '}
             <span className='purple'>Bachelor of Technology </span> (B.Tech) in

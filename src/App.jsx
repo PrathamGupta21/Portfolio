@@ -24,15 +24,17 @@ const App = () => {
   return (
     <>
       <Preloader load={load} />
-      <NavBar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/project' element={<Projects />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/resume' element={<Resume />} />
-        <Route path='*' element={<Navigate to='/' />} />
-      </Routes>
-      <Footer />
+      <div className='App' id={load ? 'no-scroll' : 'scroll'}>
+        <NavBar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/project' element={<Projects />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/resume' element={<Resume />} />
+          <Route path='*' element={<Navigate to='/' />} />
+        </Routes>
+        <Footer />
+      </div>
     </>
   );
 };

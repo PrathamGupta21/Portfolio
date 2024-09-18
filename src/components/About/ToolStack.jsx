@@ -1,5 +1,5 @@
 import { Col, Row } from 'react-bootstrap';
-import { FaBitbucket, FaConfluence, FaJenkins } from 'react-icons/fa';
+import { FaBitbucket, FaConfluence, FaJenkins, FaJira } from 'react-icons/fa';
 import { SiVisualstudiocode, SiVercel } from 'react-icons/si';
 
 const ToolStack = () => {
@@ -13,6 +13,9 @@ const ToolStack = () => {
       </Col>
       <Col xs={4} md={2} className='tech-icons'>
         <FaConfluence />
+      </Col>
+      <Col xs={4} md={2} className='tech-icons'>
+        <FaJira />
       </Col>
       <Col xs={4} md={2} className='tech-icons'>
         <FaJenkins />
